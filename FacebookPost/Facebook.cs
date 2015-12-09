@@ -17,6 +17,7 @@ namespace FacebookPost
         private string Page { get; }
         FacebookClient FacebookClient { get; }
 
+        //Facebook authorization 
         public Facebook(string key, string page)
         {
             
@@ -24,6 +25,7 @@ namespace FacebookPost
             Page = page;
         }
 
+        //Facebook post method
         public void Post(string message)
         {
             try

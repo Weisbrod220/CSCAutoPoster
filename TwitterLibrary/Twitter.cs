@@ -12,7 +12,7 @@ namespace TwitterLibrary
     public class Twitter : IPoster
     {
         private Tokens TwitterTokens { get; }
-
+        //Twitter authorization 
         public Twitter(string key, string secret)
         {
             var session = OAuth.Authorize(key, secret);
@@ -22,7 +22,7 @@ namespace TwitterLibrary
             var pin = Console.ReadLine();
             TwitterTokens = session.GetTokens(pin);
         }
-
+        //Twitter Post method
         public void Post(string tweet)
         {
             try {

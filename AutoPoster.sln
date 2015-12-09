@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSPoster", "CSPoster\CSPoster.csproj", "{CFF5D628-3662-4B0F-8CF5-91D138D9FDE4}"
 EndProject
@@ -12,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacebookLibrary", "FacebookPost\FacebookLibrary.csproj", "{B347C3F2-6F66-4185-9319-F3A2AA2FD7FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedDependency", "SharedDependency\SharedDependency.csproj", "{4C4D6757-37A3-4064-B330-2DB09A58385D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlackBotLibrary", "SlackBotLibrary\SlackBotLibrary.csproj", "{FF0223C6-9E67-4009-9638-6C36A1DA84EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{4C4D6757-37A3-4064-B330-2DB09A58385D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C4D6757-37A3-4064-B330-2DB09A58385D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C4D6757-37A3-4064-B330-2DB09A58385D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF0223C6-9E67-4009-9638-6C36A1DA84EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF0223C6-9E67-4009-9638-6C36A1DA84EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF0223C6-9E67-4009-9638-6C36A1DA84EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF0223C6-9E67-4009-9638-6C36A1DA84EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
